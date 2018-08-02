@@ -1,0 +1,149 @@
+*{box-sizing:border-box;}
+
+body{
+  font-family:"游明朝体＋36ポかな";
+  margin:0px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+
+
+.header{
+  background-color:green;
+  height: 90px;
+}
+
+li{
+  list-style: none;
+
+}
+
+.header-logo{
+  float:left;
+  font-size:25px;
+  color:white;
+  padding:30px;
+}
+
+.header-list li{
+  float:right;
+  color:white;
+  padding:30px 22px;
+}
+
+a:hover{
+  color:blue;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.main{
+  margin: 0px auto;
+  width:100%;
+  background-color: #BBFFFF
+}
+
+.main p{
+  font-weight: bold;
+  text-align: center;
+}
+
+button.button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: green;
+  color: #fff;
+  border-style: none;
+  box-shadow: 2px 2px 3px 1px #666;
+  -moz-box-shadow: 2px 2px 3px 1px #666;
+  -webkit-box-shadow: 2px 2px 3px 1px #666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button.button:hover {
+  background-color: #24d;
+  color: #fff;
+}
+
+
+.miteroya-top img{
+  float: center;
+
+  margin: 90px 50px 20px 20px;
+  width: 85%;
+  max-width: 85%;
+  height:auto;
+}
+
+.miteroya-top p{
+  text-align: center;
+
+  font-weight: bold;
+}
+
+.contents{
+  text-align: center;
+}
+
+.contents-item{
+  border-top:5px solid green;
+  border-bottom:5px solid green;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contents iframe{
+  width: 70%;
+  max-width: 70%;
+  height:500px;
+}
+
+.content img{
+  width: 70%;
+  max-width: 70%;
+  height:auto;
+}
+
+.bxslider img{
+  display: block;
+  margin: 0 auto;
+  transform: rotate(90deg);
+}
+
+.contents-text p{
+  font-weight: bold;
+}
+
+footer{
+  background-color: green;
+  height: 100px;
+
+}
+
+.footer-logo{
+  padding:30px;
+  float:left;
+  color:white;
+}
+.footer-list{
+  float:right;
+  color:white;
+  padding:30px;
+
+}

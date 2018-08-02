@@ -1,0 +1,16 @@
+@media(max-width:1000px){
+  .header-list p{
+    display: none;
+  }
+}
+
+
+@media(max-width:810px){
+  .header-logo{
+    display:none;
+  }
+  .header-list li{
+    width: 20%;
+    padding: 20px 2px;
+  }
+}
